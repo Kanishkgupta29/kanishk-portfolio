@@ -1,5 +1,5 @@
 import styles from './Herostyles.module.css';
-import HeroImg from '../../assets/hero-img.png';
+import HeroImg from '../../assets/kanishk image circle.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -8,7 +8,7 @@ import gitHubLight from '../../assets/github-light.svg';
 import gitHubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/Kanishk Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -31,15 +31,15 @@ function Hero() {
     </div>
     <div className={styles.info}>
         <h1>Kanishk <br />Gupta</h1>
-        <h2>Frontend Developer</h2>
+        <h2>Frontend & UI/UX Developer</h2>
         <span>
-            <a href="https://twitter.com/" target="_blank">
+            <a href="https://x.com/kanishk_gupta29" target="_blank">
                 <img src={twitterIcon} alt="Twitter icon" />
             </a>
-            <a href="https://gitHub.com/" target="_blank">
+            <a href="https://github.com/Kanishkgupta29" target="_blank">
                 <img src={gitHubIcon} alt="GitHub icon" />
             </a>
-            <a href="https://linkedin.com/" target="_blank">
+            <a href="https://linkedin.com/in/kanishk-gupta-09738b26b" target="_blank">
                 <img src={linkedinIcon} alt="Linkedin icon" />
             </a>
         </span>

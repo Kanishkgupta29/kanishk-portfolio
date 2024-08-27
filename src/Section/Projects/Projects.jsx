@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css'
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipster from '../../assets/hipsster.png';
+import hackinplace from '../../assets/hack-in place.jpg';
+import connectsphere from '../../assets/connectsphere.jpg';
+import ecommerce from '../../assets/ecommerce.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,24 +12,21 @@ function Projects() {
         
         <div className={styles.projectsContainer}>
             <ProjectCard 
-                src={viberr} 
-                link="https://gitHub.com/"
-                h3="Viberr"
-                p="streaming App"
+                src={hackinplace} 
+                h3="Hack-in Place"
+                p="Management System"
             /> 
 
             <ProjectCard 
-                src={freshBurger} 
-                link="https://gitHub.com/"
-                h3="Fresh Burger"
-                p="Veg Burger Restaurant"
+                src={connectsphere} 
+                h3="ConnectSphere"
+                p="Social Media App"
             />   
 
             <ProjectCard 
-                src={hipster} 
-                link="https://gitHub.com/"
-                h3="Hipster"
-                p="Glasses Shop"
+                src={ecommerce}
+                h3="E-Commerce Web App"
+                p="Front-end of eCommerce"
             />  
         </div>
     </section>
